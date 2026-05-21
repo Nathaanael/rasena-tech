@@ -83,10 +83,10 @@ export default function Testimonials() {
         </div>
       </div>
 
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         @media (max-width: 900px) { .testi-grid { grid-template-columns: 1fr !important; } }
         @media (min-width: 580px) and (max-width: 900px) { .testi-grid { grid-template-columns: repeat(2,1fr) !important; } }
-      `}</style>
+      ` }} />
     </section>
   );
 }

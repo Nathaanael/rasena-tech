@@ -30,7 +30,6 @@ Saya ingin berkonsultasi mengenai proyek digital.
 • Nama: ${form.name}
 • Nomor HP: ${form.phone}
 • Email: ${form.email}
-• Layanan yang dibutuhkan: ${form.service || "Belum ditentukan"}
 
 *Pesan:*
 ${form.message || "Saya tertarik untuk berdiskusi lebih lanjut."}
@@ -153,7 +152,7 @@ Mohon informasinya. Terima kasih!`;
             </div>
 
             {/* Service */}
-            <div style={{ marginBottom: 16 }}>
+            {/* <div style={{ marginBottom: 16 }}>
               <label style={{ display: "block", fontSize: 13, fontWeight: 600, color: "#374151", marginBottom: 6 }}>
                 Layanan yang Dibutuhkan
               </label>
@@ -166,7 +165,7 @@ Mohon informasinya. Terima kasih!`;
                 <option value="">-- Pilih layanan --</option>
                 {services.map(s => <option key={s} value={s}>{s}</option>)}
               </select>
-            </div>
+            </div> */}
 
             {/* Message */}
             <div style={{ marginBottom: 24 }}>
@@ -223,12 +222,12 @@ Mohon informasinya. Terima kasih!`;
         </div>
       </div>
 
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         @media (max-width: 900px) {
           .contact-grid { grid-template-columns: 1fr !important; }
           .form-grid { grid-template-columns: 1fr !important; }
         }
-      `}</style>
+      ` }} />
     </section>
   );
 }

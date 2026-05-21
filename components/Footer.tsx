@@ -67,17 +67,15 @@ export default function Footer() {
             © 2024 Rasena Tech. All rights reserved.
           </div>
           <div style={{ color: "rgba(255,255,255,0.3)", fontSize: 13, display: "flex", alignItems: "center", gap: 6 }}>
-            Built with
-            <svg width="14" height="14" fill="#ef4444" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
-            by Rasena Tech Team
+            Built by Rasena Tech Team
           </div>
         </div>
       </div>
 
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         @media (max-width: 900px) { .footer-grid { grid-template-columns: 1fr 1fr !important; } }
         @media (max-width: 580px) { .footer-grid { grid-template-columns: 1fr !important; } }
-      `}</style>
+      ` }} />
     </footer>
   );
 }

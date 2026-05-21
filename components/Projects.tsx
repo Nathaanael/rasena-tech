@@ -233,7 +233,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         @media (max-width: 900px) {
           .bento-grid { grid-template-columns: repeat(2, 1fr) !important; }
           .bento-grid > div { grid-column: span 1 !important; }
@@ -241,7 +241,7 @@ export default function Projects() {
         @media (max-width: 580px) {
           .bento-grid { grid-template-columns: 1fr !important; }
         }
-      `}</style>
+      ` }} />
     </section>
   );
 }

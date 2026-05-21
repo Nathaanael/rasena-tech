@@ -137,10 +137,10 @@ export default function Services() {
         </div>
       </div>
 
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         @media (max-width: 900px) { .services-grid { grid-template-columns: repeat(2, 1fr) !important; } }
         @media (max-width: 580px) { .services-grid { grid-template-columns: 1fr !important; } }
-      `}</style>
+      ` }} />
     </section>
   );
 }

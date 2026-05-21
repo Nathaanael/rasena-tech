@@ -232,12 +232,12 @@ export default function Hero() {
         </div>
       </div>
 
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         @media (max-width: 900px) {
           .hero-grid { grid-template-columns: 1fr !important; }
           .hero-visual { display: none !important; }
         }
-      `}</style>
+      ` }} />
     </section>
   );
 }

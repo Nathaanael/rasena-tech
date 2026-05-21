@@ -141,9 +141,9 @@ export default function Team() {
         </div>
       </div>
 
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         @media (max-width: 640px) { .benefits-grid { grid-template-columns: 1fr !important; } }
-      `}</style>
+      ` }} />
     </section>
   );
 }
