@@ -375,7 +375,7 @@ export default function Navbar() {
 
           {/* Logo */}
           <a href="#hero" className="nav-logo">
-            <img src="/logo.png" alt="rasenatech logo" />
+            <img src="/logo2.png" alt="rasenatech logo" />
             <div className="logo-text-wrap">
               <div className="logo-name">rasena<span>tech</span></div>
               <div className="logo-sub">digital solutions</div>

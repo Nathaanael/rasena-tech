@@ -24,7 +24,7 @@ const services = [
     color: "#8b5cf6",
     title: "Integrasi & Konsultasi IT",
     desc: "Layanan konsultasi arsitektur teknologi dan integrasi sistem yang menghubungkan berbagai platform bisnis Anda.",
-    features: ["IT Blueprint", "API Gateway", "System Architecture", "Tech Audit"],
+    features: ["IT Blueprint", "API Gateway", "System Architecture"],
   },
   {
     icon: (
