@@ -2,19 +2,27 @@
 
 const team = [
   {
-    name: "Nama Anda",
+    name: "Raffi Dzaky Mahendra",
     role: "Co-Founder & CEO",
-    expertise: "Fullstack Developer · System Architect",
+    expertise: "Fullstack Developer",
     color: "#1a6fd4",
-    initials: "NY",
+    initials: "RD",
     social: { github: "#", linkedin: "#" },
   },
   {
-    name: "Nama Rekan",
-    role: "Co-Founder & CTO",
-    expertise: "Backend Engineer · DevOps",
+    name: "Nathanael Chrystian Prasetyo",
+    role: "Co-Founder & CEO",
+    expertise: "Fullstack Developer",
     color: "#8b5cf6",
-    initials: "NR",
+    initials: "NP",
+    social: { github: "#", linkedin: "#" },
+  },
+  {
+    name: "Sean Nathanaiel Prabowo",
+    role: "Co-Founder & CEO",
+    expertise: "Fullstack Developer",
+    color: "#8b5cf6",
+    initials: "SN",
     social: { github: "#", linkedin: "#" },
   },
 ];

@@ -52,15 +52,37 @@ const projects = [
     ],
   },
   {
-    title: "OCR Dokumen Otomatis",
-    category: "AI & Automation",
-    tags: ["Python", "Tesseract", "FastAPI"],
-    desc: "Sistem ekstraksi teks otomatis dari dokumen scan dan foto, terintegrasi langsung ke sistem web klien.",
-    color: "#0ea5e9",
-    year: "2024",
+    title: "Company Profile - CTKT Divisi Kain",
+    category: "Web App",
+    tags: ["Laravel", "Filament", "MySQL"],
+    desc: "Profile perusahaan untuk CTKT Divisi Kain.",
+    color: "#f97316",
+    year: "2025",
     images: [
-      "https://placehold.co/800x450/0ea5e9/ffffff?text=OCR+Upload",
-      "https://placehold.co/800x450/0284c7/ffffff?text=OCR+Hasil+Ekstraksi",
+      "/raffi/ctkt/ctkt-kain.png"
+    ],
+  },
+  {
+    title: "OCR KTP",
+    category: "AI & Automation",
+    tags: ["Flask", "Transformers", "Donut Architecture"],
+    desc: "Sistem OCR berbasis AI untuk ekstraksi data KTP secara otomatis dari hasil scan maupun foto. Menggunakan arsitektur Donut (Document Understanding Transformer). Kemudian dapat diintegrasikan langsung ke sistem web untuk mempercepat proses input data dan validasi dokumen.",
+    color: "#0ea5e9",
+    year: "2026",
+    images: [
+      "/raffi/ocr/ocr1.png",
+    ],
+  },
+  {
+    title: "Diabetes Prediction System",
+    category: "AI & Automation",
+    tags: ["Flask", "Scikit-learn"],
+    desc: "Sistem prediksi diabetes berbasis AI untuk menganalisis faktor risiko dan memberikan rekomendasi pencegahan.",
+    color: "#0ea5e9",
+    year: "2025",
+    images: [
+      "/raffi/diabet/diabet1.png",
+      "/raffi/diabet/diabet2.png",
     ],
   },
   {
