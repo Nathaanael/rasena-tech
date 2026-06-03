@@ -216,7 +216,7 @@ Mohon informasinya. Terima kasih!`;
             </button>
 
             <p style={{ textAlign: "center", color: "#94a3b8", fontSize: 12, marginTop: 12 }}>
-              🔒 Data Anda aman. Kami tidak menyimpan informasi pribadi Anda.
+              Data Anda aman. Kami tidak menyimpan informasi pribadi Anda.
             </p>
           </div>
         </div>
