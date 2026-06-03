@@ -4,6 +4,17 @@ import { useState, useRef, useCallback, type ReactNode } from "react";
 
 const projects = [
   {
+    title: "Credit Scoring With Explainable AI",
+    category: "AI & Automation",
+    tags: ["Python", "Scikit-learn", "LIME"],
+    desc: "Sistem penilaian kredit berbasis AI explainable untuk membantu dalam pengambilan keputusan kredit yang lebih transparan dan dapat dijelaskan.",
+    color: "#3b82f6",
+    year: "2025",
+    images: [
+      "/nathan/polytron/rafficred.png",
+    ],
+  },
+  {
     title: "Overtime System - Polytron",
     category: "Web App",
     tags: ["Next.js", "API", "MySQL"],
