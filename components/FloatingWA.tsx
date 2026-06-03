@@ -1,6 +1,6 @@
 "use client";
 
-const WA_NUMBER = "628123456789";
+const WA_NUMBER = "6288806893977";
 
 export default function FloatingWA() {
   return (
