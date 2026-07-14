@@ -4,6 +4,30 @@ import { useState, useRef, useCallback, type ReactNode } from "react";
 
 const projects = [
   {
+    title: "Financing Application Registration System - FARS",
+    category: "Web App",
+    tags: ["Laravel", "MySQL",],
+    desc: "Platform Loan Origination System (LOS) yang dirancang untuk mengelola seluruh siklus proses pembiayaan dalam satu sistem yang terintegrasi.",
+    color: "#3b82f6",
+    year: "2026",
+    images: [
+      "/raffi/kedungarto/fars.png",
+    ],
+  },
+  {
+    title: "Inventory Management System - IMS",
+    category: "Web App",
+    tags: ["Laravel", "Filament", "MySQL",],
+    desc: "Sistem manajemen inventaris berbasis web untuk Toko Wahyu Jaya Electric. Sistem ini dapat digunakan untuk melacak stok barang, memantau transaksi masuk/keluar, Transaksi Retur, Stok Opname, dan menghasilkan laporan inventaris secara real-time guna meningkatkan efisiensi operasional toko.",
+    color: "#3b82f6",
+    year: "2026",
+    images: [
+      "/raffi/wahyujaya/wje1.png",
+      "/raffi/wahyujaya/wje2.png",
+      "/raffi/wahyujaya/wje3.png",
+    ],
+  },
+  {
     title: "Credit Scoring With Explainable AI",
     category: "AI & Automation",
     tags: ["Python", "Scikit-learn", "LIME"],
@@ -84,55 +108,55 @@ const projects = [
       "/raffi/ocr/ocr1.png",
     ],
   },
-  {
-    title: "Diabetes Prediction System",
-    category: "AI & Automation",
-    tags: ["Flask", "Scikit-learn"],
-    desc: "Sistem prediksi diabetes berbasis AI untuk menganalisis faktor risiko dan memberikan rekomendasi pencegahan.",
-    color: "#0ea5e9",
-    year: "2025",
-    images: [
-      "/raffi/diabet/diabet1.png",
-      "/raffi/diabet/diabet2.png",
-    ],
-  },
-  {
-    title: "ChatBot Layanan Pelanggan",
-    category: "AI & Automation",
-    tags: ["LLM", "Node.js", "WebSocket"],
-    desc: "Chatbot berbasis AI yang diintegrasikan ke website untuk menjawab pertanyaan pelanggan secara otomatis 24/7.",
-    color: "#6366f1",
-    year: "2024",
-    images: [
-      "https://placehold.co/800x450/6366f1/ffffff?text=ChatBot+Interface",
-      "https://placehold.co/800x450/4f46e5/ffffff?text=ChatBot+Admin+Panel",
-      "https://placehold.co/800x450/3730a3/ffffff?text=ChatBot+Analytics",
-    ],
-  },
-  {
-    title: "Recommendation Engine",
-    category: "AI & Automation",
-    tags: ["Python", "ML", "React"],
-    desc: "Sistem rekomendasi produk berbasis perilaku pengguna yang ditanamkan langsung di website klien.",
-    color: "#ec4899",
-    year: "2024",
-    images: [
-      "https://placehold.co/800x450/ec4899/ffffff?text=Rekomendasi+Produk",
-      "https://placehold.co/800x450/be185d/ffffff?text=Model+Training",
-    ],
-  },
-  {
-    title: "Properti.id Landing Page",
-    category: "Landing Page",
-    tags: ["Next.js", "Tailwind", "Framer"],
-    desc: "Landing page developer properti premium dengan kalkulator KPR dan integrasi WhatsApp CRM.",
-    color: "#f0a500",
-    year: "2023",
-    images: [
-      "https://placehold.co/800x450/f0a500/ffffff?text=Properti+Hero",
-      "https://placehold.co/800x450/c58400/ffffff?text=Kalkulator+KPR",
-    ],
-  },
+  // {
+  //   title: "Diabetes Prediction System",
+  //   category: "AI & Automation",
+  //   tags: ["Flask", "Scikit-learn"],
+  //   desc: "Sistem prediksi diabetes berbasis AI untuk menganalisis faktor risiko dan memberikan rekomendasi pencegahan.",
+  //   color: "#0ea5e9",
+  //   year: "2025",
+  //   images: [
+  //     "/raffi/diabet/diabet1.png",
+  //     "/raffi/diabet/diabet2.png",
+  //   ],
+  // },
+  // {
+  //   title: "ChatBot Layanan Pelanggan",
+  //   category: "AI & Automation",
+  //   tags: ["LLM", "Node.js", "WebSocket"],
+  //   desc: "Chatbot berbasis AI yang diintegrasikan ke website untuk menjawab pertanyaan pelanggan secara otomatis 24/7.",
+  //   color: "#6366f1",
+  //   year: "2024",
+  //   images: [
+  //     "https://placehold.co/800x450/6366f1/ffffff?text=ChatBot+Interface",
+  //     "https://placehold.co/800x450/4f46e5/ffffff?text=ChatBot+Admin+Panel",
+  //     "https://placehold.co/800x450/3730a3/ffffff?text=ChatBot+Analytics",
+  //   ],
+  // },
+  // {
+  //   title: "Recommendation Engine",
+  //   category: "AI & Automation",
+  //   tags: ["Python", "ML", "React"],
+  //   desc: "Sistem rekomendasi produk berbasis perilaku pengguna yang ditanamkan langsung di website klien.",
+  //   color: "#ec4899",
+  //   year: "2024",
+  //   images: [
+  //     "https://placehold.co/800x450/ec4899/ffffff?text=Rekomendasi+Produk",
+  //     "https://placehold.co/800x450/be185d/ffffff?text=Model+Training",
+  //   ],
+  // },
+  // {
+  //   title: "Properti.id Landing Page",
+  //   category: "Landing Page",
+  //   tags: ["Next.js", "Tailwind", "Framer"],
+  //   desc: "Landing page developer properti premium dengan kalkulator KPR dan integrasi WhatsApp CRM.",
+  //   color: "#f0a500",
+  //   year: "2023",
+  //   images: [
+  //     "https://placehold.co/800x450/f0a500/ffffff?text=Properti+Hero",
+  //     "https://placehold.co/800x450/c58400/ffffff?text=Kalkulator+KPR",
+  //   ],
+  // },
 ];
 
 const PER_PAGE = 3;
